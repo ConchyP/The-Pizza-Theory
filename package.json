@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "the-pizza-theory",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +18,8 @@
   },
   "homepage": "https://github.com/ConchyP/The-Pizza-Theory#readme",
   "dependencies": {
-    "pkg": "^5.8.1"
-  },
-  "devDependencies": {}
+    "modules": "^0.4.0",
+    "pkg": "^5.8.1",
+    "prompt-sync": "^4.2.0"
+  }
 }
